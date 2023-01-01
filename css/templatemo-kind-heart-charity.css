@@ -232,18 +232,6 @@ strong {
 }
 
 
-/*---------------------------------------
-  PROGRESS BAR               
------------------------------------------*/
-.progress {
-  background: var(--border-color);
-  height: 5px;
-}
-
-.progress-bar {
-  background: var(--secondary-color);
-}
-
 
 /*---------------------------------------
   CUSTOM ICON COLOR               
@@ -300,17 +288,6 @@ strong {
 
 
 /*---------------------------------------
-  AVATAR IMAGE - TESTIMONIAL, AUTHOR               
------------------------------------------*/
-.avatar-image {
-  border-radius: var(--border-radius-large);
-  width: 65px;
-  height: 65px;
-  object-fit: cover;
-}
-
-
-/*---------------------------------------
   CUSTOM BUTTON               
 -----------------------------------------*/
 .custom-btn {
@@ -347,6 +324,33 @@ strong {
   border-color: transparent;
   color: var(--white-color);
 }
+
+/* Profile Download */
+.jmp-profile {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+
+}
+
+.jmp-profile > button {
+  margin-left: 30px;
+  width: 80px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.jmp-profile > p {
+  font-weight: bold;
+}
+
+/* Our clients */
+.our-clients {
+  text-align: center;
+  font-weight: bold;
+  color:hsl(211, 91%, 62%)
+}
+
 
 
 /*---------------------------------------
