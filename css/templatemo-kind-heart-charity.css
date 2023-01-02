@@ -333,11 +333,9 @@ strong {
 
 }
 
-.jmp-profile > button {
+.jmp-profile > a {
   margin-left: 30px;
-  width: 80px;
-  height: 30px;
-  border-radius: 50px;
+  
 }
 
 .jmp-profile > p {
@@ -351,7 +349,31 @@ strong {
   color:hsl(211, 91%, 62%)
 }
 
+/* Download Profile */
 
+.download-btn {
+  background-color: dodgerblue;
+  color:white;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+donwload-btn:hover {
+  background-color: RoyalBlue;
+}
+
+.compliance {
+  list-style: square;
+  margin-left: 0;
+  color: #ffffff;
+}
+
+.compliance > h4 {
+  color: #f0f8ff;
+  font-family: 'Times New Roman', Times, serif;
+}
 
 /*---------------------------------------
   NAVIGATION              
@@ -1287,7 +1309,7 @@ blockquote::before {
 }
 
 .site-footer-bottom {
-  background-color: var(--secondary-color);
+  background-color: rgb(5, 5, 112);
   position: relative;
   z-index: 2;
   margin-top: 70px;
