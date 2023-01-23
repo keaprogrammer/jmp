@@ -1323,3 +1323,19 @@ a {
   }
 }
 
+.gallery-1 {
+  background-color: #ffffff;
+  padding-top: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #e7eef3;
+  color: #3d4552;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.gallery small{
+  font-size: small;
+  color: #000000;
+  text-decoration: wavy;
+}
+

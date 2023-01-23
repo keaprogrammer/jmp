@@ -44,6 +44,11 @@ https://templatemo.com/tm-581-kind-heart-charity
     font-display: swap;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
@@ -343,6 +348,11 @@ strong {
   z-index: 9;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+#navbar {
+  position: fixed;
+  
 }
 
 .navbar-brand {
