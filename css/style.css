@@ -183,7 +183,7 @@ h6,
 }
 
 .hero-header {
-    background: linear-gradient(rgba(18, 15, 45, .5), rgba(18, 15, 45, .5)), url(../img/carousel-1.jpg) top right no-repeat;
+    background: linear-gradient(rgba(18, 15, 45, .5), rgba(18, 15, 45, .5)), url(../images/) top right no-repeat;
     background-size: cover;
 }
 
@@ -217,7 +217,7 @@ h6,
 }
 
 .bg-offer {
-    background: linear-gradient(rgba(18, 15, 45, .5), rgba(18, 15, 45, .5)), url(../img/carousel-2.jpg) top right no-repeat;
+    background: linear-gradient(rgba(18, 15, 45, .5), rgba(18, 15, 45, .5)), url(../images/) top right no-repeat;
     background-size: cover;
 }
 
@@ -281,3 +281,25 @@ h6,
     border-color: transparent #D34351 #D34351 transparent;
     z-index: -1;
 }
+
+/* About Management Carousel */
+.team {
+    border-radius: 50%;
+}
+
+.team-nita {
+    height: 320px;
+    border-radius: 50%;
+
+}
+
+.quote {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+}
+
+
